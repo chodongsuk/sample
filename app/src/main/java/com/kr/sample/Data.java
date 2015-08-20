@@ -7,11 +7,14 @@ import kr.ds.asynctask.DsAsyncTaskCallback;
 import kr.ds.httpclient.DsHttpClient;
 import android.content.Context;
 
+import junit.framework.Test;
+
 public class Data {
 	private Context mContext;
 	private String URL = Config.URL;
 	private String PARAM = "";
 	private ResultListener mResultListener;
+	private String test2;
 
 	public Data setCallback(ResultListener listener) {
 		mResultListener = listener;
