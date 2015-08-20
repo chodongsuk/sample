@@ -14,7 +14,7 @@ public class Data {
 	private String URL = Config.URL;
 	private String PARAM = "";
 	private ResultListener mResultListener;
-	private String test4;
+	private String test5;
 
 	public Data setCallback(ResultListener listener) {
 		mResultListener = listener;
